@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "COMP2084";
+    foreach (string products in ViewBag.products)
+    {
+        <h2><a href="/products/details/{@products}">@products</a></h2>
+
+    }
+}
+
+
